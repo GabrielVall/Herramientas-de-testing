@@ -18,8 +18,8 @@ if ($("#datable_1").length > 0) {
 		} ],
 		"order": [1, 'asc' ],
 		language: { search: "",
-			searchPlaceholder: "Search",
-			"info": "_START_ - _END_ of _TOTAL_",
+			searchPlaceholder: "Buscar...",
+			"info": "_START_ - _END_ de _TOTAL_",
 			sLengthMenu: "View  _MENU_",
 			paginate: {
 			  next: '<i class="ri-arrow-right-s-line"></i>', // or '→'
@@ -34,8 +34,8 @@ if ($("#datable_1").length > 0) {
 		targetDt.rows('.selected').remove().draw( false );
 		return false;
 	});
-	$("div.contact-toolbar-left").html('<div class="d-xxl-flex d-none align-items-center"><div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example"><button type="button" class="btn btn-outline-light active">View all</button><button type="button" class="btn btn-outline-light">Monitored</button><button type="button" class="btn btn-outline-light">Unmonitored</button></div>');
-	$("div.contact-toolbar-right").addClass('d-flex justify-content-end').append('	<button class="btn btn-sm btn-outline-light ms-3"><span><span class="icon"><i class="bi bi-filter"></i></span><span class="btn-text">Filters</span></span></button>');
+	$("div.contact-toolbar-left").html('<div class="d-xxl-flex d-none align-items-center"><div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example"><button type="button" class="btn btn-outline-light active">Ver todo</button><button type="button" class="btn btn-outline-light">Terminados</button><button type="button" class="btn btn-outline-light">Pendientes</button></div>');
+	$("div.contact-toolbar-right").addClass('d-flex justify-content-end').append('	');
 	$("#datable_1").parent().addClass('table-responsive');
 	
 	/*Select all using checkbox*/
