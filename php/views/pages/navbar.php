@@ -97,7 +97,7 @@
                 <div class="media align-items-center">
                   <div class="media-head me-2">
                     <div class="avatar avatar-xs avatar-rounded">
-                      <img src="dist/img/avatar3.jpg" alt="user" class="avatar-img">
+                      <img src="<?php echo $main_url; ?>dist/img/avatar3.jpg" alt="user" class="avatar-img">
                     </div>
                   </div>
                   <div class="media-body"> Sarah Jone </div>
@@ -117,7 +117,7 @@
                 <div class="media align-items-center">
                   <div class="media-head me-2">
                     <div class="avatar avatar-xs avatar-rounded">
-                      <img src="dist/img/avatar4.jpg" alt="user" class="avatar-img">
+                      <img src="<?php echo $main_url; ?>dist/img/avatar4.jpg" alt="user" class="avatar-img">
                     </div>
                   </div>
                   <div class="media-body"> Maria Richard </div>
@@ -172,7 +172,7 @@
                     <div class="media">
                       <div class="media-head">
                         <div class="avatar avatar-rounded avatar-sm">
-                          <img src="dist/img/avatar2.jpg" alt="user" class="avatar-img">
+                          <img src="<?php echo $main_url; ?>dist/img/avatar2.jpg" alt="user" class="avatar-img">
                         </div>
                       </div>
                       <div class="media-body">
@@ -232,7 +232,7 @@
                     <div class="media">
                       <div class="media-head">
                         <div class="avatar avatar-sm avatar-rounded">
-                          <img src="dist/img/avatar3.jpg" alt="user" class="avatar-img">
+                          <img src="<?php echo $main_url; ?>dist/img/avatar3.jpg" alt="user" class="avatar-img">
                         </div>
                       </div>
                       <div class="media-body">
@@ -249,7 +249,7 @@
                     <div class="media">
                       <div class="media-head">
                         <div class="avatar avatar-sm avatar-rounded">
-                          <img src="dist/img/avatar10.jpg" alt="user" class="avatar-img">
+                          <img src="<?php echo $main_url; ?>dist/img/avatar10.jpg" alt="user" class="avatar-img">
                         </div>
                       </div>
                       <div class="media-body">
@@ -298,7 +298,7 @@
             <div class="dropdown ps-2">
               <a class=" dropdown-toggle no-caret" href="#" role="button" data-bs-display="static" data-bs-toggle="dropdown" data-dropdown-animation data-bs-auto-close="outside" aria-expanded="false">
                 <div class="avatar avatar-rounded avatar-xs">
-                  <img src="dist/img/avatar12.jpg" alt="user" class="avatar-img">
+                  <img src="<?php echo $main_url; ?>dist/img/avatar12.jpg" alt="user" class="avatar-img">
                 </div>
               </a>
               <div class="dropdown-menu dropdown-menu-end">
@@ -331,7 +331,7 @@
                             <div class="media align-items-center mb-3">
                               <div class="media-head me-2">
                                 <div class="avatar avatar-xs avatar-rounded">
-                                  <img src="dist/img/avatar12.jpg" alt="user" class="avatar-img">
+                                  <img src="<?php echo $main_url; ?>dist/img/avatar12.jpg" alt="user" class="avatar-img">
                                 </div>
                               </div>
                               <div class="media-body">

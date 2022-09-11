@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <?php
-    include_once('php/views/src/style.html');
+    include_once('php/functions/funciones.php');
+    include_once('php/views/src/style.php');
   ?>
   <body>    
     <div class="hk-wrapper" data-layout="vertical" data-layout-style="default" data-menu="light" data-footer="simple">    
     <?php
-      include_once('php/views/pages/navbar.html');
-      include_once('php/views/pages/menu.html');
-      include_once('php/views/pages/chatbot.html');
+      include_once('php/views/pages/navbar.php');
+      include_once('php/views/pages/menu.php');
+      
     ?>
       <div class="hk-pg-wrapper">
         <div class="container-xxl">
@@ -18,6 +19,7 @@
                 <div class="mb-lg-0 mb-2 me-8">
                   <h1 class="pg-title">Bienvenido, {nombre_usuario}</h1>
                   <p>No hay cambios recientes en tu grupos y/o proyectos</p>
+                  <?php echo actual_tab(); ?>
                 </div>
               </div>
             </div>
@@ -42,7 +44,7 @@
                               <span class="btn-text">Importar</span>
                             </span>
                           </button>
-                          <button class="btn btn-sm btn-primary ms-3">
+                          <a class="btn btn-sm btn-primary ms-3" href="#agregar_proyecto" >
                             <span>
                               <span class="icon">
                                 <span class="feather-icon">
@@ -51,7 +53,7 @@
                               </span>
                               <span class="btn-text">Crear nuevo</span>
                             </span>
-                          </button>
+                          </a>
                         </div>
                       </div>
                       <div class="card-body">

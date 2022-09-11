@@ -21,7 +21,7 @@
         <div class="media align-items-center">
           <div class="media-head me-2">
             <div class="avatar avatar-xs avatar-rounded">
-              <img src="dist/img/logo-avatar-1.png" alt="user" class="avatar-img">
+              <img src="<?php echo $main_url; ?>dist/img/logo-avatar-1.png" alt="user" class="avatar-img">
             </div>
           </div>
           <div class="media-body">
@@ -42,7 +42,7 @@
           </div>
         </div>
       </td>
-      <td>10 June, 2022</td>
+      <td>10 Junio, 2022</td>
       <td>
         <span class="badge badge-soft-secondary  my-1  me-2">Escuela</span>
         <span class="badge badge-soft-secondary my-1  me-2">Bibilioteca</span>
